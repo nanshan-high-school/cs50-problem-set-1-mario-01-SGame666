@@ -1,2 +1,13 @@
 # cs50-problem-set-1-mario-01-SGame666
-cs50-problem-set-1-mario-01-SGame666 created by GitHub Classroom
+#include <stdlib.h>
+#include <stdio.h>
+int main()
+{
+  int i, j;
+  for(i=0;i<=8;i++)
+  {
+    for(j=0;j<=i;j++)
+    printf("#");
+    printf("\n");
+  }
+}
